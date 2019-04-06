@@ -18,7 +18,7 @@ while b==1:
     print("       |      |      ")
     print(" ------|------|------")
     print("C   "+game['C1']+"  |   "+game['C2']+"  |   "+game['C3']+"  ")
-    print("      |      |      ")
+    print("       |      |      ")
     pawn = raw_input("Which pawn to move : ")
     where = raw_input("Where to move it : ")
     if pawn in placeholders and where in placeholders:
